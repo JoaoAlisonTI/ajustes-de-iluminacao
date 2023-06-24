@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio 24 do #BoraCodar: Desenvolvendo um ajustes de iluminação com HTML/CSS e JavaScript">
+    <meta name="author" content="JoaoAlisonTI">
+    
+    <title>#BoraCodar24</title>
+    
+    <link rel="icon" href="./assets/icon.png" type="image/png">
+    
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script defer src="./main.js" type="text/javascript" charset="utf-8"></script>
+    
+  </head>
+  <body>
+    <main>
+      
+      <div class="preview"></div>
+      
+      <span>Ajustes de Iluminação</span>
+      
+      <div class="controls">
+        <div class="hue">
+          <i class="ph-thin ph-palette"></i>
+          <div>
+            <input type="range" id="hue-slider" min="0" max="360" step="1" value="0"/>
+          </div>
+        </div>
+        
+        <div class="brightness">
+          <i class="ph-thin ph-sun"></i>
+          
+          <div>
+            <input type="range" id="brightness-slider" min="0" max="100" step="1" value="100" />
+          </div>
+        </div>
+        
+        <div class="contrast">
+          <i class="ph-thin ph-circle-half"></i>
+          
+          <div>
+            <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100" />
+          </div>
+        </div>
+      </div>
+      
+    </main>
+  </body>
+</html>
